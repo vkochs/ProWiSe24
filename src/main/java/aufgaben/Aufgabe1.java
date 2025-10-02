@@ -168,4 +168,6 @@ public class Aufgabe1
         //printRhombus(15, false);
         
     }
+
+    //Kommentar als Codeänderung für Pull Request
 }
