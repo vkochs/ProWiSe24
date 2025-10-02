@@ -1,0 +1,90 @@
+-------------------------------------------------------------------------------
+Test set: aufgaben.aufgabe1.Aufgabe1Test
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in aufgaben.aufgabe1.Aufgabe1Test
+aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight11AndUnfilled  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+
+> but was: <     +
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight11AndUnfilled(Aufgabe1Test.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight3AndUnfilled  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: < *
+* *
+ *
+
+> but was: < +
+* *
+ *
+
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight3AndUnfilled(Aufgabe1Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight5AndUnfilled  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <  *
+ * *
+*   *
+ * *
+  *
+
+> but was: <  +
+ * *
+*   *
+ * *
+  *
+
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at aufgaben.aufgabe1.Aufgabe1Test.testIfRhombusWithHeight5AndUnfilled(Aufgabe1Test.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
