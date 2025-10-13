@@ -51,7 +51,7 @@ public class Aufgabe1
                 printNChars(upperHalf-row, ' ');
                 printNChars(1, '*');
                 printNChars(row*2-1, ' ');
-                printNChars(1, '*');
+                printNChars(1, '+');
             }
             System.out.println();
         }
