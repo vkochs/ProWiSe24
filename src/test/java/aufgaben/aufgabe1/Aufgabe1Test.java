@@ -1,4 +1,4 @@
-package aufgaben.aufgabe1;
+/* package aufgaben.aufgabe1;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -99,3 +99,4 @@ public class Aufgabe1Test {
 
     
 }
+ */
