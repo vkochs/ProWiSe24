@@ -1,4 +1,4 @@
-/* package aufgaben.aufgabe1;
+ package aufgaben.aufgabe1;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,9 +8,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import aufgaben.Aufgabe1;
+import aufgaben.aufgabe1.Aufgabe1;
 
 import java.io.PrintStream;
+
 public class Aufgabe1Test {
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -99,4 +100,4 @@ public class Aufgabe1Test {
 
     
 }
- */
+ 
