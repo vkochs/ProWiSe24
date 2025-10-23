@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: aufgaben.aufgabe1.Aufgabe1Test
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in aufgaben.aufgabe1.Aufgabe1Test
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 s - in aufgaben.aufgabe1.Aufgabe1Test
