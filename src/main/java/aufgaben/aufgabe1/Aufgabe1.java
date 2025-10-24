@@ -105,7 +105,7 @@ public class Aufgabe1
         for (int row = upperHalf-1; row >= 0; row--) 
         {
             printNChars(upperHalf-row, ' ');
-            printNChars(row*2+1, '*');
+            printNChars(row*2+1, '#');
             System.out.println();
         }
     } 
