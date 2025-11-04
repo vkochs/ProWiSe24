@@ -1,18 +1,8 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Getting started:
+- Repostory forken und in der eigenen Versionsverwaltung abspeichern
+- Testcode für die gewünschte Aufgabe einkommentieren
+- Tests müssen jetzt fehlschlagen
+- Erstellen von Code für die jeweilige Aufgabe im entsprechenden package unter src/main/java/aufgaben
+- Beim pushen des Codes auf die main-Branch in GitHub wird automatische GitHub Actions ausgeführt und damit auch der Code entsprechend automatisch getestet
+- Bei Fehlermeldung: Code überprüfen
+- Keine Fehlermeldung: Tests postiv durchlaufen und Code in der main-Branch
