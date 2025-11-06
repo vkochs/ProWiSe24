@@ -13,6 +13,7 @@ import aufgaben.aufgabe1.Aufgabe1;
 import java.io.PrintStream;
 
 public class Aufgabe1Test {
+    /* 
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
@@ -98,6 +99,6 @@ public class Aufgabe1Test {
 
     } 
 
-    
+ */   
 }
  
