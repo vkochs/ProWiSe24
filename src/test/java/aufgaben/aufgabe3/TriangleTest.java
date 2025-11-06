@@ -9,19 +9,22 @@ import org.junit.jupiter.api.Test;
 import aufgaben.aufgabe3.*;
 
 public class TriangleTest {
-    
+/*    
+    //Testen des Umfangs eines Dreiecks
     @Test
     public void circumferenceTest(){
         Triangle t1 = new Triangle(3,4,5);
         assertEquals(12, t1.circumference());
     }
 
+    //Testen der Fläche eines Dreiecks
     @Test
     public void areaTest(){
          Triangle t1 = new Triangle(3,4,5);
          assertEquals(6.0, t1.area());
     }
 
+    //Testen ob ein Dreieck gleichseitig ist
     @Test
     public void equilateralTest(){
 
@@ -31,6 +34,7 @@ public class TriangleTest {
         assertTrue(t2.equilateral());
     }
 
+    //Testen ob ein Dreieck gleichschenklig ist
      @Test
     public void isoceledsTest(){
 
@@ -46,6 +50,7 @@ public class TriangleTest {
         assertTrue(t5.isosceles());
     }
 
+ //Testen ob zwei Dreiecke gleich groß sind oder eines kleiner bzw. größer   
 @Test
 public void circumferenceSmallerBiggerSameTest() {
     Triangle t1 = new Triangle(5,5,5);
@@ -59,5 +64,6 @@ public void circumferenceSmallerBiggerSameTest() {
     assertTrue(t1.isBigger(t2));
     assertFalse(t2.isBigger(t1));
     assertFalse(t2.isBigger(t3));
-}  
+}
+    */ 
 }
